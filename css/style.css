@@ -1,0 +1,232 @@
+/****** General Styles *********/
+
+* {
+  font-family:calibri, sans-serif;
+}
+a,a:visited,a:hover,a:active{
+	text-decoration:none;
+	color:#000000;
+	font-size:1.1em;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+h3 {
+font-weight:bold;
+}
+
+header {
+  margin:0px 25%;
+  width:50%;
+}
+
+.content {
+  padding-top: 0%;
+  margin:0px 21%;
+}
+
+.left-column {
+  float:left;
+  width:50%;
+  margin-left:70px;
+}
+
+.right-column {
+  float:right;
+  width:35%
+}
+
+
+/****** Header Style *********/
+
+
+/****** Navigation Style *********/
+
+.pool-icon {
+  width:300px;
+  height:75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list {
+  float:left;
+}
+
+.nav-ul {
+   display: inline-flex;
+   margin-top:0px;
+   font-size:1.1em
+}
+
+.nav-ul p {
+  margin-top:2em;
+  margin-right:1em;
+  margin-left:3em;
+}
+
+
+/****** CENTER PICTURE AND LINKS Style *********/
+
+/* OLD CENTER IMAGE
+.img-big {
+  width:1100px;
+  height:462px;
+}
+*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* MAP MAP MAP */
+.mapquest {
+  width:350px;
+  height:500px;
+  margin-top:15px;
+}
+
+.body-list {
+   font-size: 0.8em;
+   box-shadow: 10px 5px 5px #b0b8c4;
+}
+
+#leasing {
+  color:#0b51dd;
+}
+
+.body-ul {
+  display: inline-flex;
+  margin:0px 100px;
+  text-align:center;
+}
+
+.body-ul p {
+  margin:10px;
+  padding-right:10px;
+  margin-right:5px;
+  border-right:1px solid black;
+}
+
+.btn-icon {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width:125px;
+  height:90px;
+}
+
+.img-2btn-left {
+  float:left;
+}
+
+.img-2btn-right{
+  margin-left:150px;
+}
+
+.slogan-left {
+  float:left;
+}
+
+.slogan-right {
+  float:right;
+}
+
+.bottom-banner {
+  margin-left: -186%;
+  margin-top:100px;
+  margin-bottom:10px;
+}
+
+/****** Footer Style *********/
